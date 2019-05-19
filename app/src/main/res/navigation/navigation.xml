@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/infoNias">
+
+    <fragment
+        android:id="@+id/infoNias"
+        android:name="com.example.pulaunias.InfoNiasFragment"
+        android:label="fragment_info_nias"
+        tools:layout="@layout/fragment_info_nias" />
+    <fragment
+        android:id="@+id/daftarDaerah"
+        android:name="com.example.pulaunias.DaftarDaerahFragment"
+        android:label="fragment_daftar_daerah"
+        tools:layout="@layout/fragment_daftar_daerah" />
+    <fragment
+        android:id="@+id/petaGeografi"
+        android:name="com.example.pulaunias.PetaFragment"
+        android:label="fragment_peta"
+        tools:layout="@layout/fragment_peta" />
+</navigation>

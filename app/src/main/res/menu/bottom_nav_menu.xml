@@ -2,12 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:icon="@drawable/ic_info_nias"
-            android:title="Tentang Nias"/>
+        android:id="@+id/infoNias"
+        android:icon="@drawable/ic_info_nias"
+        android:title="@string/tentang_nias" />
     <item
-            android:icon="@drawable/ic_pembagian_daerah"
-            android:title="Daftar Daerah"/>
+        android:id="@+id/daftarDaerah"
+        android:icon="@drawable/ic_pembagian_daerah"
+        android:title="@string/daftar_daerah" />
     <item
-            android:icon="@drawable/ic_peta_geografi"
-            android:title="Peta Geografi"/>
+        android:id="@+id/petaGeografi"
+        android:icon="@drawable/ic_peta_geografi"
+        android:title="@string/peta_geografi" />
 </menu>
