@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorBackground"
+              android:orientation="vertical"
+              tools:context=".DetailDaerahFragment">
+
+    <TextView
+            android:id="@+id/txt_name_detail_daerah"
+            style="@style/heading_text"
+            android:layout_width="match_parent"
+            tools:text="@tools:sample/cities"/>
+
+    <ImageView
+            android:id="@+id/img_logo_detail_daerah"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="fitXY"
+            tools:src="@drawable/logo_gunungsitoli"/>
+
+    <TextView
+            android:id="@+id/txt_desc_detail_daerah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            tools:text="@string/desc_pulau_nias"/>
+</LinearLayout>

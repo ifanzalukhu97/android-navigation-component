@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Nias Island</string>
+
+    <string name="title_pulau_nias">Pulau Nias</string>
+    <string name="desc_pulau_nias">
+        Nias (bahasa Nias :Tanö Niha) adalah kepulauan yang terletak di sebelah barat pulau Sumatra, Indonesia, dan
+        secara administratif berada dalam wilayah Provinsi Sumatra Utara. Pulau ini merupakan pulau terbesar dan paling
+        maju di antara jejeran pulau-pulau di pantai barat Sumatra, dihuni oleh mayoritas suku Nias (Ono Niha) yang
+        masih memiliki budaya megalitik. Daerah ini memiliki objek wisata penting seperti selancar, rumah tradisional,
+        penyelaman, hombo batu (lompat batu).\n\nPulau dengan luas wilayah 5.625 km² ini berpenduduk hampir 1.000.000
+        jiwa.\n\nAgama mayoritas di daerah ini adalah Kristen Protestan dimana 90% penduduknya memeluk agama ini,
+        sedangkan sisanya beragama Katolik, Islam, dan Budha. Penduduk yang memeluk agama Islam pada umumnya berada di
+        wilayah pesisir Kepulauan Nias.\n\nPulau Nias yang sebelumnya hanya terdiri atas 1 kabupaten saja, telah
+        dimekarkan menjadi empat kabupaten dan 1 kota, yaitu Kabupaten Nias, Kabupaten Nias Selatan, Kabupaten Nias
+        Barat, Kabupaten Nias Utara, dan Kota Gunungsitoli.
+    </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kota_gunungsitoli">Kota Gunungsitoli</string>
+    <string name="kab_nias_utara">Kab. Nias Utara</string>
+    <string name="kab_nias_barat">Kab. Nias Barat</string>
+    <string name="kab_nias_selatan">Kab. Nias Selatan</string>
+    <string name="kab_nias">Kab. Nias</string>
+    <string name="geografi">GEOGRAFI</string>
+    <string name="label_lokasi">Lokasi</string>
+    <string name="label_koordinat">Koordinat</string>
+    <string name="label_luas">Luas</string>
+    <string name="value_koordinat">1°6′N 97°32′E</string>
+    <string name="value_lokasi">Asia Tenggara</string>
+    <string name="value_luas">4771 km2 (1842 sq mi)</string>
+    <string name="txt_pemerintahan">PEMERINTAHAN</string>
+    <string name="label_negara">Negara</string>
+    <string name="label_provinsi">Provinsi</string>
+    <string name="label_kabupaten">Kabupaten</string>
+    <string name="value_kabupaten">Nias, Nias Selatan, Nias Barat,\nNias Utara, dan Kota Gunungsitoli</string>
+    <string name="value_provinsi">Sumatra Utara</string>
+    <string name="value_negara">Indonesia</string>
+    <string name="desc_kota_gunungsitoli">Kota Gunungsitoli adalah salah satu kota di Provinsi Sumatra Utara, Indonesia.
+        Kota ini diresmikan oleh Menteri Dalam Negeri Indonesia, Mardiyanto, pada 29 Oktober 2008, sebagai salah satu
+        hasil pemekaran dari Kabupaten Nias.
+    </string>
+    <string name="desc_kab_nias_utara">Kabupaten Nias Utara adalah salah satu kabupaten di Provinsi Sumatra Utara,
+        Indonesia. Kabupaten ini diresmikan oleh Menteri Dalam Negeri Indonesia, Mardiyanto, pada 29 Oktober 2008,
+        sebagai salah satu hasil pemekaran dari Kabupaten Nias. Nias Utara adalah satu - satunya daerah kabupaten yang
+        memilki objek wisata berupa danau di wilayah pulau nias yaitu Danau Megötö. Selain itu kabupaten ini juga
+        terkenal dengan objek wisata Pantai pasir berbisik (Gawu Sifakiki) yang terletak di desa Sifahandro, kecamatan
+        Sawo. Selain itu, di terdapat juga objek wisata Air Terjun Luaha Ndroi yang berlokasi di desa Fulolo, Kecamatan
+        Alasa
+    </string>
+    <string name="desc_kab_nias_barat">Kabupaten Nias Barat adalah salah satu kabupaten di Provinsi Sumatra Utara,
+        Indonesia. Kabupaten ini diresmikan oleh Menteri Dalam Negeri Indonesia, Mardiyanto, pada 26 Mei 2009, sebagai
+        salah satu hasil pemekaran dari Kabupaten Nias.
+    </string>
+    <string name="desc_kab_nias_selatan">Kabupaten Nias Selatan adalah salah satu kabupaten di Sumatra Utara yang
+        terletak di pulau Nias. Penduduknya berjumlah 457.757 jiwa (Januari 2015).
+        \n\nNias Selatan sebelumnya adalah bagian dari Kabupaten Nias. Status otonom diperoleh pada 25 Februari 2003 dan
+        diresmikan pada 28 Juli 2003. Kabupaten ini terdiri dari 104 gugusan pulau besar dan kecil. Letak pulau- pulau
+        itu memanjang sejajar Pulau Sumatra. Panjang pulau-pulau itu lebih kurang 60 kilometer, lebar 40 kilometer.
+    </string>
+    <string name="desc_kab_nias">Kabupaten Nias adalah salah satu kabupaten di Sumatra Utara yang terletak di pulau
+        Nias. Ibukotanya Gido dapat ditempuh dengan perjalanan laut dari Sibolga selama 12 jam, atau dengan perjalanan
+        udara dari Medan selama 1 jam menggunakan pesawat Lion Air/Wings Air, SMAC (Fokker F-50), Merpati (CN 235),dan
+        Riau Airlines dengan Bandar Udara Binaka.
+    </string>
+</resources>

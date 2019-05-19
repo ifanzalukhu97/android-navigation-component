@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            tools:context=".PetaFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/img_peta"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/peta_nias"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+                android:id="@+id/txt_geografi"
+                style="@style/heading_text"
+                android:text="@string/geografi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_peta"/>
+
+        <TextView
+                android:id="@+id/label_lokasi"
+                style="@style/label_geografi"
+                android:text="@string/label_lokasi"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_geografi"/>
+
+        <TextView
+                android:id="@+id/label_koordinat"
+                style="@style/label_geografi"
+                android:text="@string/label_koordinat"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/label_lokasi"/>
+
+        <TextView
+                android:id="@+id/label_luas"
+                style="@style/label_geografi"
+                android:text="@string/label_luas"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/label_koordinat"/>
+
+        <TextView
+                android:id="@+id/value_koordinat"
+                style="@style/value_geografi"
+                android:layout_marginStart="24dp"
+                android:text="@string/value_koordinat"
+                app:layout_constraintStart_toEndOf="@+id/label_koordinat"
+                app:layout_constraintTop_toTopOf="@+id/label_koordinat"/>
+
+        <TextView
+                android:id="@+id/value_lokasi"
+                style="@style/value_geografi"
+                android:text="@string/value_lokasi"
+                app:layout_constraintStart_toStartOf="@+id/value_koordinat"
+                app:layout_constraintTop_toTopOf="@+id/label_lokasi"/>
+
+        <TextView
+                android:id="@+id/value_luas"
+                style="@style/value_geografi"
+                android:text="@string/value_luas"
+                app:layout_constraintStart_toStartOf="@+id/value_koordinat"
+                app:layout_constraintTop_toTopOf="@+id/label_luas"/>
+
+        <TextView
+                android:id="@+id/txt_pemerintahan"
+                style="@style/heading_text"
+                android:layout_marginTop="16dp"
+                android:text="@string/txt_pemerintahan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/label_luas"/>
+
+        <TextView
+                android:id="@+id/label_negara"
+                style="@style/label_geografi"
+                android:text="@string/label_negara"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_pemerintahan"/>
+
+        <TextView
+                android:id="@+id/label_provinsi"
+                style="@style/label_geografi"
+                android:text="@string/label_provinsi"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/label_negara"/>
+
+        <TextView
+                android:id="@+id/label_kabupaten"
+                style="@style/label_geografi"
+                android:text="@string/label_kabupaten"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/label_provinsi"/>
+
+        <TextView
+                android:id="@+id/value_kabupaten"
+                style="@style/value_geografi"
+                android:layout_marginStart="24dp"
+                android:text="@string/value_kabupaten"
+                app:layout_constraintStart_toEndOf="@+id/label_kabupaten"
+                app:layout_constraintTop_toBottomOf="@+id/label_provinsi"
+                app:layout_constraintTop_toTopOf="@+id/label_kabupaten"/>
+
+        <TextView
+                android:id="@+id/value_provinsi"
+                style="@style/value_geografi"
+                android:text="@string/value_provinsi"
+                app:layout_constraintStart_toStartOf="@+id/value_kabupaten"
+                app:layout_constraintTop_toTopOf="@+id/label_provinsi"/>
+
+        <TextView
+                android:id="@+id/value_negara"
+                style="@style/value_geografi"
+                android:text="@string/value_negara"
+                app:layout_constraintStart_toStartOf="@+id/value_kabupaten"
+                app:layout_constraintTop_toTopOf="@+id/label_negara"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

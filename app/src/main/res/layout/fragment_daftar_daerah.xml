@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:padding="8dp"
+            tools:context=".DaftarDaerahFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/kota_gununsitoli"
+                style="@style/card_left_city_list"
+                app:layout_constraintEnd_toStartOf="@+id/kab_nias_utara"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout style="@style/linear_layout_city_list">
+
+                <ImageView
+                        style="@style/image_city_list"
+                        android:src="@drawable/logo_gunungsitoli"/>
+
+                <TextView
+                        style="@style/text_city_list"
+                        android:text="@string/kota_gunungsitoli"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/kab_nias_utara"
+                style="@style/card_right_city_list"
+                app:layout_constraintStart_toEndOf="@+id/kota_gununsitoli"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout style="@style/linear_layout_city_list" tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                        style="@style/image_city_list"
+                        android:src="@drawable/logo_nias_utara"/>
+
+                <TextView
+                        style="@style/text_city_list"
+                        android:text="@string/kab_nias_utara"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/kab_nias_barat"
+                style="@style/card_left_city_list"
+                app:layout_constraintEnd_toStartOf="@+id/kab_nias_selatan"
+                app:layout_constraintTop_toBottomOf="@id/kota_gununsitoli">
+
+            <LinearLayout style="@style/linear_layout_city_list">
+
+                <ImageView
+                        style="@style/image_city_list"
+                        android:src="@drawable/logo_nias_barat"/>
+
+                <TextView
+                        style="@style/text_city_list"
+                        android:text="@string/kab_nias_barat"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/kab_nias_selatan"
+                style="@style/card_right_city_list"
+                app:layout_constraintStart_toEndOf="@+id/kab_nias_barat"
+                app:layout_constraintTop_toBottomOf="@id/kab_nias_utara">
+
+            <LinearLayout style="@style/linear_layout_city_list">
+
+                <ImageView
+                        style="@style/image_city_list"
+                        android:src="@drawable/logo_nias_selatan"/>
+
+                <TextView
+                        style="@style/text_city_list"
+                        android:text="@string/kab_nias_selatan"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/kab_nias"
+                style="@style/card_left_city_list"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/kab_nias_selatan"
+                app:layout_constraintTop_toBottomOf="@id/kab_nias_barat">
+
+            <LinearLayout style="@style/linear_layout_city_list">
+
+                <ImageView
+                        style="@style/image_city_list"
+                        android:src="@drawable/logo_nias"/>
+
+                <TextView
+                        style="@style/text_city_list"
+                        android:text="@string/kab_nias"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
