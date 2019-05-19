@@ -14,10 +14,23 @@
         android:id="@+id/daftarDaerah"
         android:name="com.example.pulaunias.DaftarDaerahFragment"
         android:label="fragment_daftar_daerah"
-        tools:layout="@layout/fragment_daftar_daerah" />
+        tools:layout="@layout/fragment_daftar_daerah">
+        <action
+            android:id="@+id/action_daftarDaerah_to_detailDaerah"
+            app:destination="@id/detailDaerah" />
+    </fragment>
     <fragment
         android:id="@+id/petaGeografi"
         android:name="com.example.pulaunias.PetaFragment"
         android:label="fragment_peta"
         tools:layout="@layout/fragment_peta" />
+    <fragment
+        android:id="@+id/detailDaerah"
+        android:name="com.example.pulaunias.DetailDaerahFragment"
+        android:label="fragment_detail_daerah"
+        tools:layout="@layout/fragment_detail_daerah">
+        <argument
+            android:name="cityName"
+            app:argType="string" />
+    </fragment>
 </navigation>
